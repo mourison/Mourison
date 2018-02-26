@@ -5,6 +5,6 @@ import gr.mourison.wunderground.domain.ResponsePojo;
 
 public interface ApiService {
 
-    public ResponsePojo getResponse();
+    public ResponsePojo getResponse(String date);
 
 }

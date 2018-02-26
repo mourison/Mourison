@@ -13,14 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WundergroundApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/WundergroundApplication.java">
+      <file leaf-file-name="ApiServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,6 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dail</find>
+    </findStrings>
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -45,13 +49,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Dailysummary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Observation.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Observation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/History.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/ExcelWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/gr/mourison/wunderground/ApiServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/WundergroundApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/FinalResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/XLSXReaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/WriteExcelFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -74,10 +83,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -94,10 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,10 +111,87 @@
               <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
               <item name="wunderground" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wunderground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,6 +208,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="summary&#9;PSI&#9;JAVA://gr.mourison.wunderground.domain.History#dailysummary" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -214,6 +299,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ApiServiceImplTest.testGetResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gr.mourison.wunderground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="wunderground" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="gr.mourison.wunderground" />
+      <option name="MAIN_CLASS_NAME" value="gr.mourison.wunderground.ApiServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -282,15 +392,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.WundergroundApplication" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ApiServiceImplTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.All in wunderground" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ApiServiceImplTest.testGetResult" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ApiServiceImplTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in wunderground" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ApiServiceImplTest.testGetResult" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ApiServiceImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in wunderground" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +421,9 @@
       <updated>1519563650131</updated>
       <workItem from="1519563652794" duration="7580000" />
       <workItem from="1519585847623" duration="2825000" />
-      <workItem from="1519591133078" duration="93000" />
+      <workItem from="1519591133078" duration="297000" />
+      <workItem from="1519663792993" duration="1571000" />
+      <workItem from="1519665406986" duration="7965000" />
     </task>
     <servers />
   </component>
@@ -337,7 +451,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10498000" />
+    <option name="totallyTimeSpent" value="20238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,37 +463,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68443805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50864553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41051137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50852275" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38054362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2825465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -391,10 +506,47 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gr/mourison/wunderground/ApiServiceImplTest.java</url>
+          <line>16</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/WundergroundApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/WundergroundApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -417,8 +569,8 @@
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,45 +608,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Date__.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Date_.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/History_.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Dailysummary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Observation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/ResponsePojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Utcdate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-211">
           <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -520,60 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <marker date="1519559417000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1519559417000" expanded="true" signature="2290:2313" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="2432:2455" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="2570:2593" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="2706:2729" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="2875:2898" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="2927:2950" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="3062:3085" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="3230:3253" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="3566:3589" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="3816:3839" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="4063:4086" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="4276:4299" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="4440:4463" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="4563:4586" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="4818:4841" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="5191:5214" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="5266:5289" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="5666:5689" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="5805:5828" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="5908:5931" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="6140:6163" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="6316:6339" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="6525:6548" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="6699:6722" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="6829:7060" ph="{...}" />
-            <marker date="1519559417000" expanded="true" signature="7031:7054" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="7092:9167" ph="{...}" />
-            <marker date="1519559417000" expanded="true" signature="7275:7298" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="7384:7407" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="7495:7518" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="7609:7632" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="7818:7841" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8002:8025" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8161:8184" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8335:8358" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8510:8533" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8753:8776" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="8936:8959" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9015:9038" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9070:9093" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9138:9161" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9223:9886" ph="{...}" />
-            <marker date="1519559417000" expanded="true" signature="9613:9636" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9735:9758" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="9857:9880" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="10078:10743" ph="{...}" />
-            <marker date="1519559417000" expanded="true" signature="10248:10271" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="10405:10428" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="10547:10570" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="10646:10669" ph="{}" />
-            <marker date="1519559417000" expanded="true" signature="10714:10737" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,12 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1516533758000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516533758000" expanded="true" signature="512:535" ph="{}" />
-            <marker date="1516533758000" expanded="true" signature="757:780" ph="{}" />
-            <marker date="1516533758000" expanded="true" signature="1022:1045" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,60 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1965">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <marker date="1516533745000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516533745000" expanded="true" signature="2290:2313" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="2432:2455" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="2570:2593" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="2706:2729" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="2875:2898" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="2927:2950" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="3062:3085" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="3230:3253" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="3566:3589" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="3816:3839" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="4063:4086" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="4276:4299" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="4440:4463" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="4563:4586" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="4818:4841" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="5191:5214" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="5266:5289" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="5666:5689" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="5805:5828" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="5908:5931" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="6140:6163" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="6316:6339" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="6525:6548" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="6699:6722" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="6829:7060" ph="{...}" />
-            <marker date="1516533745000" expanded="true" signature="7031:7054" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="7092:9167" ph="{...}" />
-            <marker date="1516533745000" expanded="true" signature="7275:7298" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="7384:7407" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="7495:7518" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="7609:7632" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="7818:7841" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8002:8025" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8161:8184" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8335:8358" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8510:8533" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8753:8776" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="8936:8959" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9015:9038" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9070:9093" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9138:9161" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9223:9886" ph="{...}" />
-            <marker date="1516533745000" expanded="true" signature="9613:9636" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9735:9758" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="9857:9880" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="10078:10743" ph="{...}" />
-            <marker date="1516533745000" expanded="true" signature="10248:10271" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="10405:10428" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="10547:10570" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="10646:10669" ph="{}" />
-            <marker date="1516533745000" expanded="true" signature="10714:10737" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,29 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="423" column="0" lean-forward="false" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gr/mourison/wunderground/ApiServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,45 +676,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Observation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Dailysummary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/ResponsePojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/ExcelWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wunderground.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/WundergroundApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="191">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gr/mourison/wunderground/ApiServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/XLSXReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/FinalResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="8" column="96" lean-forward="false" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/domain/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/tools/WriteExcelFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/mourison/wunderground/services/ApiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

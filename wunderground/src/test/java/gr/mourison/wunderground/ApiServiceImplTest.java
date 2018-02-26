@@ -30,7 +30,7 @@ public class ApiServiceImplTest {
     @Test
     public void testGetResult() throws Exception{
 
-        String date = apiService.getResponse().getHistory().getDate().getMon();
+        String date = apiService.getResponse("20171030").getHistory().getDate().getMon();
         assertEquals("10",date);
 
     }
